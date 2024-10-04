@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    width: 30%;
+    background-color: #0d1b2af0;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.left-section h1 {
+    font-size: 2.2em;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 1.2em;
+}
+
+.nn-g {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.right-section {
+    width: 70%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #2a3b5af5;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+main {
+    padding: 50px;
+}
+
+main h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+main p {
+    font-size: 1.17em;
+    color: #030000;
+}
+.top-section-img{
+    background-image: url("https://logowik.com/content/uploads/images/indian-railways3115.jpg");
+    height: 50vh;
+    width: 70vw;
+    background-size: cover;
+    opacity: 4;
+
+}
+.top{
+    position: absolute;
+    opacity: 0.7;
+    object-fit:cover;
+    flex-grow: 50;
+    min-width: 6em;
+    min-height: 4em
+}
+
+section.banner {
+    background: url('https://media.istockphoto.com/id/1189029595/photo/passenger-train-india.jpg?s=612x612&w=0&k=20&c=hyx3odm2VulQ9XdonY2HT8VZQkiREE62AUlqhsWoi1o=') center no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 250;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section.banner h1 {
+    position: relative;
+    color: white;
+    font-size: 48px;
+    z-index: 1;
+}
+
+.textbox{
+    position: relative;
+    text-align: left;
+}
+
+
+.left-section1 {
+    width: 30%;
+    background-color: #0d1b2af0;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: left;
+}
+
+.left-section1 h1 {
+    font-size: 2.2em;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+.left-section1 p {
+    font-size: 1.2em;
+}
+
+.minister {
+    height: 100px;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.main1 {
+    padding: 0px 50px 50px 50px;
+}
+
+.main1 h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.main1 p {
+    font-size: 1.17em;
+    color: #030000;
+}
+span{
+    font-weight: bold;
+}
+
+.card{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.new{
+    font-size: 13px;
+    padding:5px 3px 5px 8px;
+}
+
+.card img{
+    width: 100%;
+  border-radius: 25px;
+  opacity: 0.8;
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+}
